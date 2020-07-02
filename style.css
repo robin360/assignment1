@@ -13,7 +13,7 @@ section{
     background-size: cover;
 }
 .full-width{
-    padding-top: 50px;
+    padding-top: 200px;
     margin-left: 16%;
 }
 .half-width{
@@ -53,10 +53,10 @@ p{
 /*---  Biography     --*/
 
 .bio-area{
-    background-image: url(images/biography-bg.png) no-repeat;
+    background-color: #F8F9FC;
     background-size: cover;
-    margin-top: 5px;
     display: block;
+    padding-top: 200px;
 }
 .mypic2{
     width: 80%;
@@ -91,16 +91,17 @@ p{
     text-align: center;
     margin-top: 30px;
     background-image: url(images/footer-bg.png);
-    height: 100vh;
+    height: 93vh;
 }
 .client h1{
     font-weight: 500;
+    margin-bottom: 10px;
 }
 h3{
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 8px;
-    margin-top: 70px;
+    margin-bottom: 5px;
+    margin-top: 80px;
 }
 h4{
     font-size: 15px;
@@ -110,26 +111,33 @@ h4{
    
 }
 .client p{
-    margin-top: 50px;
+    margin-top: 40px;
     color: black;
+    margin-bottom: 70px;
 }
 .box{
-    padding: 50px 10px;
-    background-image: linear-gradient(45deg,#EC5299,#ED4B6E);
-    border-radius: 5px;
-    margin-top: 90px;
+    width: 650px;
+    height: 150px;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg,#EC4F91,#ED4B6E);
+    border-radius: 10px;
+    margin: auto;
 }
 .box p{
-    margin: 0;
     color: #fff;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
 }
 .box h5{
-    margin: 0;
     color: #fff;
-    margin-top: 20px;
+    margin: 0;
     font-size: 23px;
     margin-bottom: 30px;
 }
+
+/*Copyright area*/
+
 footer{
     text-align: center;
 }
